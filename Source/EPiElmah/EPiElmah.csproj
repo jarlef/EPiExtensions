@@ -52,9 +52,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin\ElmahPlugin.cs">
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
     <Compile Include="DDSErrorLog.cs" />
     <Compile Include="Domain\DDSErrorLogEntry.cs" />
     <Compile Include="VirtualXmlErrorLog.cs" />
