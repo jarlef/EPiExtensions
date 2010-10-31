@@ -54,7 +54,7 @@
   <ItemGroup>
     <Compile Include="DDSErrorLog.cs" />
     <Compile Include="Domain\DDSErrorLogEntry.cs" />
-    <Compile Include="VirtualXmlErrorLog.cs" />
+    <Compile Include="VPPErrorLog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

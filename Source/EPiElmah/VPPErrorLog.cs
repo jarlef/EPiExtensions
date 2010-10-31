@@ -11,11 +11,11 @@ using System.Linq;
 
 namespace JarleF.EPiElmah
 {
-    public class VirtualXmlErrorLog : ErrorLog
+    public class VPPErrorLog : ErrorLog
     {
         public string LogPath { get; private set; }
 
-        public VirtualXmlErrorLog(IDictionary config)
+        public VPPErrorLog(IDictionary config)
         {
             LogPath = config["logPath"] as string ?? config["LogPath"] as string ?? config["logpath"] as string ?? string.Empty;
 
@@ -25,7 +25,7 @@ namespace JarleF.EPiElmah
             }
         }
 
-        public VirtualXmlErrorLog(string logPath)
+        public VPPErrorLog(string logPath)
         {
             LogPath = logPath;
 
